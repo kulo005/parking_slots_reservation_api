@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Empty:</strong>
+  <%= @parking_slot.empty %>
+</p>
+
+<p>
+  <strong>Fordisabled:</strong>
+  <%= @parking_slot.forDisabled %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @parking_slot.position %>
+</p>
+
+<%= link_to 'Edit', edit_parking_slot_path(@parking_slot) %> |
+<%= link_to 'Back', parking_slots_path %>

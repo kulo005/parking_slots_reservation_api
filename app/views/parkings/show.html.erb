@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Numberofslots:</strong>
+  <%= @parking.NumberOfSlots %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @parking.city %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @parking.street %>
+</p>
+
+<p>
+  <strong>Addressnumber:</strong>
+  <%= @parking.addressNumber %>
+</p>
+
+<%= link_to 'Edit', edit_parking_path(@parking) %> |
+<%= link_to 'Back', parkings_path %>
